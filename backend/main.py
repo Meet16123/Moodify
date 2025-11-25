@@ -12,6 +12,7 @@ skip_threshold_seconds = 30  # Consider it a skip if track changes within 30 sec
 
 def auth():
     load_dotenv()
+    
 
     client_id = os.getenv("CLIENT_ID")
     client_secret = os.getenv("CLIENT_SECRET")
